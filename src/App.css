@@ -1,0 +1,81 @@
+.text {
+  width: 100%;
+  text-align: center;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(160, 160, 160, 0.2), 0 6px 20px 0 rgb(207, 201, 201)
+}
+
+.select-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px;
+  display: flex;
+  width: 200px;
+}
+
+.operator-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .operator-btn button{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  flex: 1;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+.btn {
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+
